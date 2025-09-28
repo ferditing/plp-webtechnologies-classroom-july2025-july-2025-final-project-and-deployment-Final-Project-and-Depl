@@ -1,0 +1,15 @@
+{
+"name": "explore-kenya",
+"version": "1.0.0",
+"description": "A responsive multipage website showcasing Kenya's beauty.",
+"main": "index.html",
+"scripts": {
+"start": "live-server",
+"test": "echo \"No tests specified\" && exit 0"
+},
+"author": "Ferdinand Tingisha",
+"license": "MIT",
+"devDependencies": {
+"live-server": "^1.2.2"
+}
+}
