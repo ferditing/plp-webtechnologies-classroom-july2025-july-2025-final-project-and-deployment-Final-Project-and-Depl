@@ -1,90 +1,100 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🇰🇪 Explore Kenya – Responsive Multipage Tourism Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+Welcome to **Explore Kenya**, a responsive multipage website showcasing the beauty, destinations, and culture of Kenya. This project demonstrates modern web development best practices, including planning, semantic HTML5, responsive CSS, JavaScript interactivity, and deployment.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🌍 Project Purpose
 
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+The purpose of this website is to provide an engaging, informative, and visually appealing guide to Kenya’s top tourist destinations, culture, and travel tips. It is designed for travelers, students, and anyone interested in exploring Kenya.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🗂️ Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+```
+/css
+  main.css
+  reset.css
+/js
+  main.js
+  utils.js
+/assets/images
+  (all images and logos)
+/index.html
+/about.html
+/contact.html
+/destinations.html
+/gallery.html
+/README.md
+/package.json
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 📄 Pages & Navigation
 
-Once your project is complete, choose a method to **host your site online**.
+- **Home:** Welcome, hero section, featured destinations
+- **Destinations:** Card grid of top destinations with travel/hostel info
+- **Gallery:** Responsive image gallery of Kenya
+- **About:** Info about the site and its mission
+- **Contact:** Contact form with validation
 
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+Navigation is provided via a sidebar (desktop) or togglable menu (mobile), with a Kenyan flag logo at the top.
 
 ---
 
-## Deliverables
+## 🖥️ Responsive Design
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- Uses CSS Grid and Flexbox for layouts
+- Sidebar navigation collapses to a toggle menu on mobile
+- All pages are mobile-friendly and tested on various screen sizes
 
 ---
 
-## Outcome
+## ✨ Interactivity
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **Sidebar toggle:** JavaScript enables sidebar open/close on mobile
+- **Contact form:** JavaScript validates required fields and email format
+
+---
+
+
+**To run locally:**
+1. Clone the repo
+2. run index.html since it is on the root folder
+
+---
+
+## 📋 How to Use
+
+- Browse destinations and gallery
+- Use the sidebar to navigate between pages
+- Submit the contact form to get in touch (demo only)
+
+---
+
+## 🛠️ Best Practices
+
+- Semantic HTML5 elements
+- Modular, commented CSS and JS
+- Organized assets and code
+- Validated HTML/CSS
+
+---
+
+## 🌐 Live Demo
+
+https://visit-kenya.netlify.app/contact
+
+---
+
+## 👤 Author
+
+Ferdinand Tingisha
+
+---
+
+## 📄 License
+
+MIT
